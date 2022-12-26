@@ -17,7 +17,14 @@ const Counter = () => {
     );
   };
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        width: "10%",
+        margin: "auto",
+      }}
+    >
       {counters.map((counter, index) => {
         let color = "black";
         if (counter > 0) {
@@ -40,7 +47,5 @@ const Counter = () => {
     </div>
   );
 };
-Counter();
-<Counter />;
 
 export default Counter;

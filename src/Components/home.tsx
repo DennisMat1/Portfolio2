@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import image from "../Images/1645175615289-removebg-preview.png";
+import WeatherCard from "./weatherApi";
 
 export default class Home extends Component {
   render() {
@@ -96,7 +97,7 @@ export default class Home extends Component {
                 padding: "20px",
               }}
             >
-              Work in progress
+              <WeatherCard />
             </div>
           </div>
         </div>
