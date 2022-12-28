@@ -46,7 +46,7 @@ export default class Home extends Component {
                   React
                 </td>
                 <td style={{ border: "1px solid black", padding: "8px" }}>
-                  Redelijk
+                  gemiddeld
                 </td>
               </tr>
               <tr>
@@ -54,7 +54,7 @@ export default class Home extends Component {
                   Typescript
                 </td>
                 <td style={{ border: "1px solid black", padding: "8px" }}>
-                  Redelijk
+                  gemiddeld
                 </td>
               </tr>
               <tr>
@@ -62,7 +62,7 @@ export default class Home extends Component {
                   CSS
                 </td>
                 <td style={{ border: "1px solid black", padding: "8px" }}>
-                  Redelijk
+                  gemiddeld
                 </td>
               </tr>
               <tr>
@@ -70,7 +70,7 @@ export default class Home extends Component {
                   HTML
                 </td>
                 <td style={{ border: "1px solid black", padding: "8px" }}>
-                  Redelijk
+                  Goed
                 </td>
               </tr>
               <tr>
@@ -78,7 +78,7 @@ export default class Home extends Component {
                   C#
                 </td>
                 <td style={{ border: "1px solid black", padding: "8px" }}>
-                  Redelijk
+                  gemiddeld
                 </td>
               </tr>
               <tr>
@@ -86,7 +86,7 @@ export default class Home extends Component {
                   MySQL
                 </td>
                 <td style={{ border: "1px solid black", padding: "8px" }}>
-                  Redelijk
+                  gemiddeld
                 </td>
               </tr>
             </table>

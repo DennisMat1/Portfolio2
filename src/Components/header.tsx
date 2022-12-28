@@ -36,7 +36,7 @@ const Header = () => {
                 Home
               </Nav.Link>
               <Nav.Link as={NavLink} to={"/portfolio"}>
-                Portfolio
+                Projecten
               </Nav.Link>
               <Nav.Link as={NavLink} to={"/contact"}>
                 Contact
