@@ -33,7 +33,7 @@ function WeatherCard() {
   const sunsetTime = sunset ? sunset.split("T")[1].split("+")[0] : "";
 
   return (
-    <div className="weather-card">
+    <div className="weather-card" style={{background: "linear-gradient(to top, #bdc3c7, #2c3e50)",}}>
       <h1 className="weather-text">{location}</h1>
       <p className="temp">Temperatuur: {temperature}°C</p>
       <p className="humidity">luchtvochtigheid: {humidity}%</p>

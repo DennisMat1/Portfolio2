@@ -19,15 +19,23 @@ const Memesapi = () => {
   }, []);
 
   return (
-    <div style={{ backgroundColor: "lightgray" }}>
-      <p style={{ textAlign: "center", height: "60px" }}></p>
+    <div >
+      <p style={{ textAlign: "center", height: "20px" }}></p>
       <footer
         style={{
-          minHeight: "100%",
+          color:"white",
+          position: "fixed",
+          left: 0,
+          bottom: 0,
+          width: "100%",
+          height: "50px",
+          backgroundColor: "lightgray",
           display: "flex",
+          justifyContent: "center",
+          background: "linear-gradient(to top, #bdc3c7, #2c3e50)",alignItems: "center",
         }}
       >
-        {memes.map((meme) => (
+        {/*memes.map((meme) => (
           <img
             src={meme.image}
             alt={meme.title}
@@ -40,12 +48,12 @@ const Memesapi = () => {
               height: "24em",
             }}
           />
-        ))}
-      </footer>
-      <p style={{ textAlign: "center", height: "60px" }}>
+        ))*/}<p style={{ textAlign: "center", height: "20px" }}>
         {" "}
         Dennis matheuwezen - 2022
       </p>
+      </footer>
+      
     </div>
   );
 };

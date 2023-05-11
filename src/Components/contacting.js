@@ -28,7 +28,7 @@ export const ContactUs = () => {
     <form
       ref={form}
       onSubmit={sendEmail}
-      style={{ width: "50%", margin: "0 auto" }}
+      style={{color:"white", width: "50%", margin: "0 auto" }}
     >
       <label style={{ display: "block", marginBottom: "8px" }}>
         Name:
